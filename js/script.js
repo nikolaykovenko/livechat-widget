@@ -1,9 +1,10 @@
+var LiveChat = LiveChat || {};
 LiveChat.init();
 
 console.log(LiveChat);
 
 console.log(LiveChat.getSessionId());
-LiveChat.postMessage("Hello! This message comes from the App Widget. Press enter to send it!");
+LiveChat.putMessage("Hello! This message comes from the App Widget. Press enter to send it!");
 
 $(function() {
     $('#hello-button').click(function () {
