@@ -5,6 +5,7 @@ services:
       image: nginx
       volumes:
         - .:/usr/share/nginx/html
+        - ./default.conf:/etc/nginx/conf.d/default.conf
       restart: always
       ports:
         - "8088:80"
