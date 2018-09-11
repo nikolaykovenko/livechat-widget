@@ -7,8 +7,8 @@ LiveChat.on('customer_profile', function( data ) {
 
 $(function() {
     $('#hello-button').click(function () {
-        const greeting = new Greeting();
-        console.log(greeting.getRandom());
+        // const greeting = new Greeting();
+        // console.log(greeting.getRandom());
 
         console.log(LiveChat);
         console.log(LiveChat.getSessionId());
