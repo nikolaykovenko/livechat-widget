@@ -6,5 +6,5 @@ LiveChat.on('customer_profile', function( data ) {
 });
 
 LiveChat.putMessage("Hello! This message comes from the App Widget. Press enter to send it!");
-LiveChat.getSessionId()
+LiveChat.getSessionId();
 
