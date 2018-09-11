@@ -1,12 +1,10 @@
+var LiveChat = LiveChat || {};
+LiveChat.init();
 
 $(function() {
     $('#hello-button').click(function () {
         const greeting = new Greeting();
         console.log(greeting.getRandom());
-
-
-        var LiveChat = LiveChat || {};
-        LiveChat.init();
 
         console.log(LiveChat);
         console.log(LiveChat.getSessionId());
