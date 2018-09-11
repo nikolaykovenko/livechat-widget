@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+  nginx:
+      image: nginx
+      volumes:
+        - .:/usr/share/nginx/html
+      restart: always
+      ports:
+        - "8088:80"
